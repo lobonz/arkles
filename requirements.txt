@@ -1,0 +1,30 @@
+# Office Requirements AI Chat - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# CORS Support for cross-origin requests
+Flask-CORS==4.0.0
+
+# HTTP Requests for Ollama API
+requests==2.31.0
+
+# JSON handling (included in Python standard library, but specifying for clarity)
+# json - built-in
+
+# Regular expressions (built-in)
+# re - built-in
+
+# Type hints (built-in in Python 3.5+)
+# typing - built-in
+
+# Optional: Development and debugging tools
+# Uncomment if you want enhanced development experience
+
+# python-dotenv==1.0.0  # For environment variable management
+# gunicorn==21.2.0      # Production WSGI server
+# pytest==7.4.3        # Testing framework
+# black==23.9.1         # Code formatting
+# flake8==6.1.0         # Code linting
